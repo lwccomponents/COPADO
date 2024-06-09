@@ -8,6 +8,8 @@ handleChange(event){
     const productDetails = new CustomEvent('sendinginvoicedetails',{
      detail:this.textValue
     });
+	
+	
     this.dispatchEvent(productDetails);
 }
 }
